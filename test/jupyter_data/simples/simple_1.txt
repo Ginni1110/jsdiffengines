@@ -1,0 +1,8 @@
+function() {
+    var size = 50000;
+    var array = new Array(size);
+    while (size--){
+        array[size] = 0;
+    }
+    print(array.length);
+}

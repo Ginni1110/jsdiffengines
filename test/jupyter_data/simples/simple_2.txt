@@ -1,0 +1,4 @@
+function () {
+    var arr2 = [1];
+    arr2[500000] = 'X';
+}

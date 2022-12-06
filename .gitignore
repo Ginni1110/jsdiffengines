@@ -1,0 +1,8 @@
+# Default ignored files
+/workspace.xml
+
+*.pyc
+
+# files
+test/tmp*
+test/case.js

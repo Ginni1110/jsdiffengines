@@ -1,0 +1,24 @@
+{
+  "db_path": "/home/yhy/workspace/experiment/test.db",
+  "workspace": "/home/yhy/workspace/experiment",
+  "classify_db": "mysql://root:nisl@10.15.10.113:3306/experiment?charset=utf8",
+  "engine_parser_config_path": "./resources/enginesName.json",
+  "testbeds": [
+    "/home/engines/hermes/hermes_0.12.0/build_release/bin/hermes -w",
+    "/home/engines/quickjs/quickjs-2021-03-27/qjs",
+    "/home/engines/jerryscript/jerryscript-2.4.0/release/jerryscript/build/bin/jerry",
+    "/home/engines/XS/moddable-3.5.0/build/bin/lin/release/xst",
+    "/home/engines/duktape/duktape-2.6.0/duk",
+    "/home/engines/mujs/mujs-1.3.2/build/release/mujs"
+  ],
+  "ESApis": {
+    "function": "./resources/ES262-APIs/function.txt",
+    "constructor": "./resources/ES262-APIs/constructor.txt",
+    "classMethod": "./resources/ES262-APIs/classMethod.txt",
+    "prototypeMethod": "./resources/ES262-APIs/prototypeMethod.txt"
+  },
+  "harness": {
+    "mode": -1,
+    "processes_num": -1
+  }
+}
